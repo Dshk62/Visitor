@@ -22,6 +22,7 @@ public class Main {
         cart.accept(totalCostVisitor);
 
         // Выводим результат
+
         System.out.println("Total cost: " + totalCostVisitor.getTotalCost());
     }
 }
